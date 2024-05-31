@@ -1,6 +1,6 @@
 [package]
-name = "tarefas_rust"
-version = "0.1.0"
+name = "tarefas_rust_1"
+version.workspace = true
 edition = "2021"
 
 [dependencies]
