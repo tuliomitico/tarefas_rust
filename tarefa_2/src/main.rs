@@ -1,4 +1,4 @@
-fn maior_numero(vetor: Vec<i32>) -> i32 {
+fn maior_numero(vetor: &[i32]) -> i32 {
     let mut maior = vetor[0];
     
     if vetor.len() == 1 {
@@ -17,5 +17,5 @@ fn maior_numero(vetor: Vec<i32>) -> i32 {
 
 fn main() {
     let vec: Vec<i32> = vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    println!("{}", maior_numero(vec));
+    println!("{}", maior_numero(&vec));
 }
