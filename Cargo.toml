@@ -1,7 +1,7 @@
 [workspace]
 members = [
   "tarefa_1",
-  "tarefa_2",
+  "tarefa_2", "tarefa_3",
 ]
 
 [package]

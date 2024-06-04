@@ -5,9 +5,9 @@ fn maior_numero(vetor: &[i32]) -> i32 {
         return maior;
     }
 
-    for i in 1..vetor.len() {
-        if vetor[i] > maior {
-            maior = vetor[i];
+    for i in vetor {
+        if i > &maior {
+            maior = *i;
         }
     }
 

@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "tarefa_3"
+version = "1.2.0"
+
+[[package]]
 name = "tarefas_rust"
 version = "1.2.0"
 
